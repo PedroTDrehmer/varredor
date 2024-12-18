@@ -1,8 +1,7 @@
-import os
-from dotenv import load_dotenv
+from src.library.date import date
 
-load_dotenv()
+# PATH_ARQUIVOS = f'C:\\Users\\Nexxo\\HubNexxo\\HubNexxo - Arquivos - zRobo\\zRoboNotaSalvador\\{date()}'
 
-PATH_ARQUIVOS = os.getenv('PATH_ARQUIVOS')
+PATH_ARQUIVOS = f'C:\\Users\\Nexxo\\HubNexxo\\HubNexxo - Arquivos - zRobo\\zRoboNotaSalvador\\11 - 2024'
 
-PATH_SAVE = os.getenv('PATH_SAVE')
+PATH_SAVE = f'C:\\Users\\Nexxo\\HubNexxo\\HubNexxo - Arquivos - zRobo\\RELATÓRIO_RETENÇÕES\\{date()}'
